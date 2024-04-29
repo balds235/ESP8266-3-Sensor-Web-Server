@@ -21,6 +21,7 @@ void setup() {
   Serial.println("\nConnected to WiFi");
   server.begin();
   Serial.println("TCP server started");
+  Serial.println(WiFi.localIP());
   dht.begin();
   pinMode(TRIGGER_PIN, OUTPUT);
   pinMode(ECHO_PIN, INPUT);
