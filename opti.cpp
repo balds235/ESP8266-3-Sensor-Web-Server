@@ -1,7 +1,7 @@
 #include <DHT.h>
 #include <ESP8266WiFi.h>
-const char *ssid = "SSID";
-const char *password = "PASSWORD";
+const char *ssid = "YOUR_SSID";
+const char *password = "YOUR_PASSWORD";
 #define DHTPIN D2       // Digital pin connected to the DHT sensor
 #define DHTTYPE DHT11   // DHT 11
 #define MOISTURE_PIN A0 // Analog pin connected to the moisture sensor
