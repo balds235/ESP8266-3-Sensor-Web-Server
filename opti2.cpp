@@ -64,6 +64,7 @@ void setup() {
     Serial.print(".");
   }
   Serial.println("Connected to WiFi");
+  Serial.println(Wifi.localIP())
   webSocket.begin();
   webSocket.onEvent(webSocketEvent);
   | dht.begin();
