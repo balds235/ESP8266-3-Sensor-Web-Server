@@ -44,7 +44,7 @@ void handleClientRequest(WiFiClient client) {
   client.println();
   client.print("Temperature: ");
   client.print(temperature);
-  client.println(" °C");
+  client.println(" ï¿½C");
   client.print("Moisture Level: ");
   client.println(moistureLevel);
   client.print("Distance: ");
